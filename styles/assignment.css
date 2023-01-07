@@ -2,11 +2,6 @@
     margin: 0;
 
 }
-.banner{
-    position: absolute;
-    margin: none;
-
-}
 .banner-title{
     position: absolute;
     width: 525px;
@@ -45,19 +40,17 @@ color: #444343;
  
 .container {
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
   }
   
+  /* My Failure Section */
 .image {
     position: absolute;
     width: 569px;
     height: 723.3px;
     left: 229px;
-    top: 934px;
+    top: 934px; 
 
-    ;
-    
-    
   }
   
 .failure-title {
@@ -78,11 +71,11 @@ color: #444343;
     line-height: 26px;
   }
   .failure-list{
-position: absolute;
-width: 349px;
-height: 162px;
-left: 862px;
-top: 1370px;
+    position: absolute;
+    width: 349px;
+    height: 162px;
+    left: 862px;
+    top: 1370px;
   }
   ul {
     list-style: none;
@@ -90,3 +83,148 @@ top: 1370px;
   ul li:before {
     content: '\2714\0020';
   }
+
+  /* My Plans */
+
+  .section-title{
+position: absolute;
+width: 179px;
+height: 47px;
+left: 711px;
+top: 1852.3px;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+  }
+  .skills-container{
+    display: flex;
+    margin: 1150px 200px 200px 280px ;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    
+
+}
+.skill-title{
+    
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+}
+.skill-description{
+    color: #757575;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+}
+
+/* Watch Section */
+.watch{
+position: absolute;
+width: 1140px;
+height: 300px;
+left: 204px;
+top: 2296.3px;
+background-color: #F15B22;
+
+}
+
+.top-left {
+     position: absolute;
+    top: 50px;
+     left: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+border-radius: 8px;
+}
+.btn{
+position: absolute;
+bottom: 60px;
+left: 100px;
+font-weight: 600;
+font-size: 20px;
+width: 130px;
+height: 60px;
+text-align: center;
+color: #F15B22;
+background: #FFFFFF;
+border-radius: 5px;
+}
+
+.btm{
+width: 1600px;
+height: 577px;
+left: 0px;
+top: 2646.3px;
+background: #151414;
+}
+
+/* Footer Section */
+.bottom-content{
+    display: flex;
+    gap: 600px;
+    margin-top: 500px;
+    color: #FFFFFF;
+    
+}
+.future-title{
+position: absolute;
+width: 148px;
+height: 53px;
+left: 230px;
+top: 2776.3px;
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+}
+
+.future-description{
+position: absolute;
+width: 485px;
+height: 78px;
+left: 230px;
+top: 2845.3px;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+}
+
+.subscribe-bottom{
+    position: absolute;
+    width: 123px;
+    height: 29px;
+    left: 1046px;
+    top: 2776.3px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+}
+.subscriber{
+position: absolute;
+width: 325px;
+height: 144px;
+left: 1046px;
+top: 2836.3px;
+
+
+}
+.sub-btn{
+    position: absolute;
+    width: 150.06px;
+    height: 34px;
+    left: 5.02px;
+    top: 50px;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F15B22;
+}
